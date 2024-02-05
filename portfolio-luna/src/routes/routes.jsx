@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import { Notfound } from "../pages/NotFound";
-import { Landingpage } from "../pages/Landingage";
+import { NotFound } from "../pages/NotFound";
+import { Landingpage } from "../pages/Landingpage";
 import { Aboutme } from "../pages/Aboutme";
 
 const routes = (
@@ -8,7 +8,7 @@ const routes = (
     <Route path="/" element={<Landingpage />}>
       <Route path="/about-me" element={<Aboutme />} />
     </Route>
-    <Route path="*" element={<Notfound />} />
+    <Route path="*" element={<NotFound />} />
   </Routes>
 );
 export default routes;

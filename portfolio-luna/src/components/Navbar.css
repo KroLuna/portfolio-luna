@@ -20,10 +20,9 @@
 .hamburger {
   display: block;
   height: 30px;
-  width: 10%;
+  width: 50px;
   padding-right: 20px;
   margin-bottom: -23px;
-  width: 10%;
 }
 
 .dropdown {

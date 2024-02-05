@@ -1,6 +1,6 @@
-import "./Notfound.css";
+import "./NotFound.css";
 
-export const Notfound = () => {
+export const NotFound = () => {
   return (
     <div className="not-found-message">
       <h3>

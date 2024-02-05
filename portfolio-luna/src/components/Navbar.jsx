@@ -1,10 +1,10 @@
-import "./NavBar.css";
-import Hamburger from "../../assets/hamburger-black.svg";
-import Logo from "../../assets/logo2.svg";
+import "./Navbar.css";
+import Hamburger from "../assets/hamburger-black.png";
+// import Logo from "../../assets/logo2.svg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-export const NavBar = ({ onLogoClick }) => {
+export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -17,7 +17,7 @@ export const NavBar = ({ onLogoClick }) => {
 
   return (
     <div className="Navbar-wrapper">
-      <img src={Logo} alt="Menu" className="logo" onClick={onLogoClick} />
+      {/* <img src={Logo} alt="Menu" className="logo" onClick={onLogoClick} /> */}
       <div className="nav-links">
         <Link to="/" className="nav-item">
           Home
